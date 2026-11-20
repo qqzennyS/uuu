@@ -1,0 +1,32 @@
+#parent {
+	display: grid;
+	grid-template-columns: 1fr 2fr 2fr 4fr;
+	grid-template-rows: 1fr 3fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	width: 400px;
+}
+div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent2 {
+	display: grid;
+	grid-template-columns: 3fr 2fr 2fr 4fr;
+	grid-template-rows: 1fr 3fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	margin: 20px 0;
+	width: 400px;
+
+}
+#parent3 {
+	display: grid;
+	grid-template-columns: 3fr 2fr 2fr 4fr;
+	grid-template-rows: 1fr 3fr;
+	border: 2px solid #696989;
+	padding: 10px;
+	margin: 20px 0;
+	width: 400px;
+
+}

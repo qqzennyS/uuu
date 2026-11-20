@@ -40,3 +40,22 @@ div {
 	margin: 20px 0;
 	border: 2px solid #696989;
 }
+
+#parent2 > #elem1{
+	grid-row: 1 / 5;
+}
+#parent2 > #elem2 {
+	grid-row: 1 / 2;
+}
+
+#parent2 > #elem3 {
+	grid-row: 2 / 3;
+}
+
+#parent2 > #elem4 {
+	grid-row: 3 / 4;
+}
+
+#parent2 > #elem5 {
+	grid-row: 4 / 5;
+}

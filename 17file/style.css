@@ -1,0 +1,8 @@
+#parent {
+	display: grid;
+	grid-template-columns:repeat(2, 100px) repeat(3, 200px) 1fr repeat(2, 10%);
+}
+#parent > div {
+	padding: 10px;
+	border: 1px solid #696989;
+}

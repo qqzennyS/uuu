@@ -1,8 +1,32 @@
 #parent {
 	display: grid;
-	grid-template-columns: 2fr 1fr;
+	grid-template-columns: 1fr 1fr;
 	height: 300px;
 	width: 400px;
 	padding: 10px;
 	border: 2px solid #696989;
+}
+div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+
+#elem1 {
+	grid-row: 1 / 2;
+}
+
+#elem2 {
+	grid-row: 2 / 3;
+}
+
+#elem3 {
+	grid-row: 1 / 2;
+}
+
+#elem4 {
+	grid-row: 2 / 4;
+}
+
+#elem5 {
+	grid-row: 3 / 4;
 }

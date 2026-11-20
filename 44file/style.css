@@ -8,7 +8,17 @@
 	width: 600px;
 	height: 200px;
 }
-#parent > div {
+div {
 	padding: 10px;
 	border: 1px solid #696989;
+}
+#parent2 {
+	display: grid;
+	grid-gap: 10px 5%;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	padding: 10px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 200px;
+	margin: 20px 0;
 }
